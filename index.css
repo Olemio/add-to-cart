@@ -4,8 +4,7 @@ html, body {
     font-family: 'Chakra Petch', sans-serif;
     background-color: #EFFAF1;
     color: #081C15;
-    user-select: none;
-}
+    user-select: none;}
 
 .container {
     display: flex;
@@ -55,7 +54,8 @@ button {
     flex: 1;
 }
 
-button:hover {
+button:hover, 
+button:active {
     background-color: #1B4332;
     cursor: pointer;
 }
