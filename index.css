@@ -1,0 +1,85 @@
+html, body {
+    margin: 3px;
+    padding: 0;
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #EFFAF1;
+    color: #081C15;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+h1 {
+    max-width: 300px;
+    margin: 10px auto 25px;
+    text-align: center;
+    color: #1B4332;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 45px;
+}
+
+h1 span {
+    font-size: 40px;
+}
+input {
+    color: #081C15;
+    background-color: #DCE1EB;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 10px 0;
+}
+
+.cart-btns {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    color: #EFFAF1;
+    background-color: #2D6A4F;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    flex-grow: 1;
+}
+
+button:hover {
+    background-color: #1B4332;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    font-size: 20px;
+    background-color: #D8F3DC;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+}
+
+ul li:hover {
+    background-color: #2D6A4F;
+    color: #EFFAF1;
+    cursor: pointer;
+}
