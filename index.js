@@ -11,6 +11,7 @@ const shoppingListInDB = ref(database, "shoppingList")
 
 const inputFieldEl = document.getElementById("input-field")
 const addButtonEl = document.getElementById("add-button")
+const clearButton = document.getElementById("clear-button")
 const shoppingListEl = document.getElementById("shopping-list")
 
 addButtonEl.addEventListener("click", function() {
@@ -19,6 +20,12 @@ addButtonEl.addEventListener("click", function() {
     push(shoppingListInDB, inputValue)
     
     clearInputFieldEl()
+})
+
+clearButton.addEventListener("click", function() {
+    let shoppingListDasd = ref(database, `shoppingList`)
+        
+    remove(shoppingListDasd)
 })
 
 inputFieldEl.addEventListener("keyup", function(e) {
