@@ -22,7 +22,7 @@ addButtonEl.addEventListener("click", function() {
     clearInputFieldEl()
 })
 
-clearButton.addEventListener("click", function() {
+clearButton.addEventListener("dblclick", function() {
     let shoppingListDasd = ref(database, `shoppingList`)
         
     remove(shoppingListDasd)
