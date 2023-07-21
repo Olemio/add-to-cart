@@ -23,9 +23,9 @@ addButtonEl.addEventListener("click", function() {
 })
 
 clearButton.addEventListener("dblclick", function() {
-    let shoppingListDasd = ref(database, `shoppingList`)
+    let shoppingListDbLocation = ref(database, `shoppingList`)
         
-    remove(shoppingListDasd)
+    remove(shoppingListDbLocation)
 })
 
 inputFieldEl.addEventListener("keyup", function(e) {
